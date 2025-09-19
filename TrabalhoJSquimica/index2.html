@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óxido de Índio</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <style>
+      * {
+          margin: 0;
+      }
+    </style>
+    <link rel="icon" href="img/icone1.webp" type="image/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="menu-sticky">
+        <h1>Óxido de Índio</h1>        
+        <nav>
+            <div class="container1">
+                <a href="index.html">Página Inicial</a>
+                <img src="img/icone.webp" alt="icone" width="40" height="40">
+            </div>
+        </nav>
+    </header>
+    <section>
+        <input type="button" id="b1" value="Muda cor" />
+        <script type="text/javascript">
+            function mudaCor()
+            {
+            document.body.style.backgroundColor="lavender";
+            }
+            document.querySelector("#b1").addEventListener("click",mudaCor );
+        </script>
+                <input type="button" id="c1" value="Muda cor" />
+        <script type="text/javascript">
+            function mudaCor()
+            {
+            document.body.style.backgroundColor="#ffffff";
+            }
+            document.querySelector("#c1").addEventListener("click",mudaCor );
+        </script>
+    </section>
+    <script src="js/codigo.js"></script>
+</body>
+</html>
