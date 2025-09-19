@@ -1,9 +1,0 @@
-#introducao {
-  background: #f9f9f9;
-}
-#aplicacoes {
-  background: #eef7ff;
-}
-#curiosidades {
-  background: #fff7e6;
-}
